@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:layout_centerHorizontal="true"
+        android:padding="24dp"
+        android:src="@drawable/logo"/>
+
+    <TextView
+        android:id="@+id/motto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#1B5E20"
+        android:textSize="22sp"
+        android:fontFamily="cursive"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/logo"
+        android:text="Magic in every sip!" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="32sp"
+        android:fontFamily="cursive"
+        android:padding="8dp"
+        android:layout_below="@id/motto"
+        android:layout_centerHorizontal="true"
+        android:text="Coffee house - Hogwarts" />
+
+    <TextView
+        android:id="@+id/definition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:fontFamily="serif-monospace"
+        android:padding="8dp"
+        android:layout_below="@id/name"
+        android:text="Find yourself in wizard world of Harry Potter with the best coffee according to Severus Snape's recipes!" />
+
+    <TextView
+        android:id="@+id/flavors"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:fontFamily="serif-monospace"
+        android:padding="8dp"
+        android:layout_below="@id/definition"
+        android:text="~ Endless variety of flavors!" />
+
+    <TextView
+        android:id="@+id/book"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:fontFamily="serif-monospace"
+        android:padding="8dp"
+        android:layout_below="@id/flavors"
+        android:text="~ Read or buy a book over a cup of coffee!" />
+
+    <TextView
+        android:id="@+id/promo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:fontFamily="serif-monospace"
+        android:padding="8dp"
+        android:layout_below="@id/book"
+        android:text="~ Promotions and certificates!" />
+
+    <TextView
+        android:id="@+id/number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:fontFamily="cursive"
+        android:padding="8dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/promo"
+        android:text="Contact us: 0 500 381 875" />
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:fontFamily="cursive"
+        android:padding="8dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/number"
+        android:text="Address: st. Toktogula/Isanova" />
+
+    <TextView
+        android:id="@+id/hours"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:fontFamily="cursive"
+        android:padding="8dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/address"
+        android:text="Opening hours: Mon-Sun: 8:00-22:00" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#1B5E20"
+        android:textSize="20sp"
+        android:fontFamily="cursive"
+        android:padding="16dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Find us on Platform 9 3/4! Espresso Patronum!" />
+</RelativeLayout>
